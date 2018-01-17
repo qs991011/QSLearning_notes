@@ -16,10 +16,9 @@ class ViewController: UIViewController , SerialDispatchPool,UITableViewDelegate,
     var prilayer : CALayer!
     var tableview : UITableView!
     
-
     override func viewDidLoad() {
        super.viewDidLoad()
-        addXibView()
+
 //       let pictureInput = UIImageView(frame: self.view.bounds)
 //       let inputImage = UIImage(named: "meinv.jpg")
 //       //let toonFilter = SmoothToonFilter()
@@ -57,9 +56,7 @@ class ViewController: UIViewController , SerialDispatchPool,UITableViewDelegate,
     }
     
     func addXibView() {
-        let xib = RyOfficeUseCarView.initView()
-        xib.frame = CGRect(x: 0, y: 200, width: 300, height: 212)
-        self.view.addSubview(xib)
+       
     }
     
     @objc func rotateAnimation() {
@@ -195,9 +192,7 @@ extension ViewController {
     }
 }
 
-protocol SerialDispatchPool {
-   
-}
+protocol SerialDispatchPool {}
 
 extension SerialDispatchPool {
     public func runOperationPoolAsynchronously(_ operation:@escaping () -> ()) {
