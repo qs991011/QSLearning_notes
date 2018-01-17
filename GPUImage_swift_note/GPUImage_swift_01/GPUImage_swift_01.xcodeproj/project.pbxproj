@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7069A291FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7069A241FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift */; };
+		D7069A2A1FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7069A281FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib */; };
 		D7069A331FFE009800D03CC5 /* QSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7069A2F1FFE009800D03CC5 /* QSButton.swift */; };
 		D79191D91FE76538001CA327 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79191D51FE76538001CA327 /* Layout.swift */; };
 		D79191DB1FE76635001CA327 /* InterimSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79191DA1FE76635001CA327 /* InterimSpace.swift */; };
@@ -19,7 +21,6 @@
 		D7E651E21FE26A9C0019DE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E651E11FE26A9C0019DE47 /* Assets.xcassets */; };
 		D7E651E51FE26A9C0019DE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E651E31FE26A9C0019DE47 /* LaunchScreen.storyboard */; };
 		D7E652011FE271750019DE47 /* meinv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7E652001FE271750019DE47 /* meinv.jpg */; };
-		D7F2A64F200D908300AA8DB2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2A64D200D908300AA8DB2 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D7069A241FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyOfficeUseCarView.swift; sourceTree = "<group>"; };
+		D7069A281FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RyOfficeUseCarView.xib; sourceTree = "<group>"; };
 		D7069A2F1FFE009800D03CC5 /* QSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSButton.swift; sourceTree = "<group>"; };
 		D79191D51FE76538001CA327 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		D79191DA1FE76635001CA327 /* InterimSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterimSpace.swift; sourceTree = "<group>"; };
@@ -88,7 +91,6 @@
 		D7E651E41FE26A9C0019DE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7E651E61FE26A9C0019DE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7E652001FE271750019DE47 /* meinv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meinv.jpg; path = ../../../GPUImage_note/GPUImage_01/GPUImage_01/meinv.jpg; sourceTree = "<group>"; };
-		D7F2A64D200D908300AA8DB2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,11 +138,12 @@
 			children = (
 				D7E651DA1FE26A9C0019DE47 /* AppDelegate.swift */,
 				D7E651DC1FE26A9C0019DE47 /* ViewController.swift */,
-				D7F2A64D200D908300AA8DB2 /* HomeController.swift */,
 				D79191D51FE76538001CA327 /* Layout.swift */,
 				D79191DA1FE76635001CA327 /* InterimSpace.swift */,
 				D79191E21FE7B09C001CA327 /* SideslipCell.swift */,
 				D7069A2F1FFE009800D03CC5 /* QSButton.swift */,
+				D7069A241FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift */,
+				D7069A281FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib */,
 				D7E652001FE271750019DE47 /* meinv.jpg */,
 				D7E651DE1FE26A9C0019DE47 /* Main.storyboard */,
 				D7E651E11FE26A9C0019DE47 /* Assets.xcassets */,
@@ -252,6 +255,7 @@
 				D7E651E21FE26A9C0019DE47 /* Assets.xcassets in Resources */,
 				D7E651E01FE26A9C0019DE47 /* Main.storyboard in Resources */,
 				D7E652011FE271750019DE47 /* meinv.jpg in Resources */,
+				D7069A2A1FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7069A291FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift in Sources */,
 				D7E651DD1FE26A9C0019DE47 /* ViewController.swift in Sources */,
 				D79191DB1FE76635001CA327 /* InterimSpace.swift in Sources */,
-				D7F2A64F200D908300AA8DB2 /* HomeController.swift in Sources */,
 				D7E651DB1FE26A9C0019DE47 /* AppDelegate.swift in Sources */,
 				D7069A331FFE009800D03CC5 /* QSButton.swift in Sources */,
 				D79191D91FE76538001CA327 /* Layout.swift in Sources */,
