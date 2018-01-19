@@ -56,11 +56,7 @@ class ViewController: UIViewController , SerialDispatchPool,UITableViewDelegate,
         
     }
     
-    func addXibView() {
-        let xib = RyOfficeUseCarView.initView()
-        xib.frame = CGRect(x: 0, y: 200, width: 300, height: 212)
-        self.view.addSubview(xib)
-    }
+
     
     @objc func rotateAnimation() {
 //        let anima = CABasicAnimation(keyPath: "transform.rotation.z")

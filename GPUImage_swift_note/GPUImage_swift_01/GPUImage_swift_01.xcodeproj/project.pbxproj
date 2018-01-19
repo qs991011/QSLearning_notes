@@ -13,6 +13,7 @@
 		D79191D91FE76538001CA327 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79191D51FE76538001CA327 /* Layout.swift */; };
 		D79191DB1FE76635001CA327 /* InterimSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79191DA1FE76635001CA327 /* InterimSpace.swift */; };
 		D79191E31FE7B09C001CA327 /* SideslipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79191E21FE7B09C001CA327 /* SideslipCell.swift */; };
+		D7B96E91200EE12B009DF63A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B96E90200EE12B009DF63A /* HomeController.swift */; };
 		D7CC2DF31FE3598D005758F7 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CC2DF01FE3597E005758F7 /* GPUImage.framework */; };
 		D7CC2DF41FE3598D005758F7 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7CC2DF01FE3597E005758F7 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D7E651DB1FE26A9C0019DE47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E651DA1FE26A9C0019DE47 /* AppDelegate.swift */; };
@@ -82,6 +83,7 @@
 		D79191D51FE76538001CA327 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		D79191DA1FE76635001CA327 /* InterimSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterimSpace.swift; sourceTree = "<group>"; };
 		D79191E21FE7B09C001CA327 /* SideslipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideslipCell.swift; sourceTree = "<group>"; };
+		D7B96E90200EE12B009DF63A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		D7CC2DE41FE3597E005758F7 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../GPUImage.xcodeproj; sourceTree = "<group>"; };
 		D7E651D71FE26A9C0019DE47 /* GPUImage_swift_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImage_swift_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E651DA1FE26A9C0019DE47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			children = (
 				D7E651DA1FE26A9C0019DE47 /* AppDelegate.swift */,
 				D7E651DC1FE26A9C0019DE47 /* ViewController.swift */,
+				D7B96E90200EE12B009DF63A /* HomeController.swift */,
 				D79191D51FE76538001CA327 /* Layout.swift */,
 				D79191DA1FE76635001CA327 /* InterimSpace.swift */,
 				D79191E21FE7B09C001CA327 /* SideslipCell.swift */,
@@ -270,6 +273,7 @@
 				D7E651DD1FE26A9C0019DE47 /* ViewController.swift in Sources */,
 				D79191DB1FE76635001CA327 /* InterimSpace.swift in Sources */,
 				D7E651DB1FE26A9C0019DE47 /* AppDelegate.swift in Sources */,
+				D7B96E91200EE12B009DF63A /* HomeController.swift in Sources */,
 				D7069A331FFE009800D03CC5 /* QSButton.swift in Sources */,
 				D79191D91FE76538001CA327 /* Layout.swift in Sources */,
 				D79191E31FE7B09C001CA327 /* SideslipCell.swift in Sources */,

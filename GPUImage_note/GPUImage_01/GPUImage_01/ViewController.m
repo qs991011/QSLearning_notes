@@ -17,21 +17,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIImage *inputImage = [UIImage imageNamed:@"meinv.jpg"];
-    GPUImagePicture *sourcePicture = [[GPUImagePicture alloc] initWithImage:inputImage smoothlyScaleOutput:YES];
-    GPUImageSketchFilter *customFileter = [[GPUImageSketchFilter alloc] init];
-    [sourcePicture addTarget:customFileter];
-    GPUImageView *imageView = [[GPUImageView alloc] initWithFrame:self.view.bounds];
-    [self.view addSubview:imageView];
-    [customFileter addTarget:imageView];
-    [sourcePicture processImage];
+
     
+}
+
+/**
+ 添加图片
+ */
+- (void)addImage {
+        UIImage *inputImage = [UIImage imageNamed:@"meinv.jpg"];
+        GPUImagePicture *sourcePicture = [[GPUImagePicture alloc] initWithImage:inputImage smoothlyScaleOutput:YES];
+        GPUImageSketchFilter *customFileter = [[GPUImageSketchFilter alloc] init];
+        [sourcePicture addTarget:customFileter];
+        GPUImageView *imageView = [[GPUImageView alloc] initWithFrame:self.view.bounds];
+        [self.view addSubview:imageView];
+        [customFileter addTarget:imageView];
+        [sourcePicture processImage];
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 
 
