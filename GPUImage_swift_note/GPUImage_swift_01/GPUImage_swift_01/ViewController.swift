@@ -19,7 +19,7 @@ class ViewController: UIViewController , SerialDispatchPool,UITableViewDelegate,
 
     override func viewDidLoad() {
        super.viewDidLoad()
-        addXibView()
+
 //       let pictureInput = UIImageView(frame: self.view.bounds)
 //       let inputImage = UIImage(named: "meinv.jpg")
 //       //let toonFilter = SmoothToonFilter()
@@ -121,40 +121,6 @@ class ViewController: UIViewController , SerialDispatchPool,UITableViewDelegate,
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         //rotateAnimation()
     }
-    
-    func PiplineRender() {
-        
-        //let renderView = RenderView(frame: self.view.frame)
-       
-        //创建一个BrightnessAdjustment颜色处理滤镜
-        let brightnessAdjustment = BrightnessAdjustment()
-        brightnessAdjustment.brightness = 0
-        
-        // 创建一个ExposureAdjustment颜色处理滤镜
-        let exposureAdjustment = ExposureAdjustment()
-        exposureAdjustment.exposure = 0.5
-        
-        
-        let pictureInput = PictureInput(image:UIImage(named: "meinv.jpg")!)
-        let pictureOutput = PictureOutput()
-        pictureOutput.imageAvailableCallback = { (image) in
-            
-            let imageView = UIImageView(frame: self.view.bounds)
-            imageView.image = image
-            self.view.addSubview(imageView)
-            
-        }
-        
-        pictureInput --> brightnessAdjustment --> exposureAdjustment --> pictureOutput
-        pictureInput.processImage(synchronously: true)//执行完毕 就会回调imageAvailableCallback回调
-//        pictureInput.addTarget(pictureOutput)
-//        let render = RenderView(frame: self.view.bounds)
-//        render.addSource(pictureInput)
-//        self.view.addSubview(render)
-        
-    }
-    
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

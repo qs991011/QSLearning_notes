@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7069A291FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7069A241FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift */; };
-		D7069A2A1FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7069A281FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib */; };
 		D7069A331FFE009800D03CC5 /* QSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7069A2F1FFE009800D03CC5 /* QSButton.swift */; };
+		D746F3E32021697C00AA4DB9 /* QSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D746F3DF2021697C00AA4DB9 /* QSLog.swift */; };
 		D79191D91FE76538001CA327 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79191D51FE76538001CA327 /* Layout.swift */; };
 		D79191DB1FE76635001CA327 /* InterimSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79191DA1FE76635001CA327 /* InterimSpace.swift */; };
 		D79191E31FE7B09C001CA327 /* SideslipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79191E21FE7B09C001CA327 /* SideslipCell.swift */; };
+		D792B0EC20622FC50001FA2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D792B0EB20622FC50001FA2E /* ContentView.swift */; };
 		D7B96E91200EE12B009DF63A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B96E90200EE12B009DF63A /* HomeController.swift */; };
 		D7CC2DF31FE3598D005758F7 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CC2DF01FE3597E005758F7 /* GPUImage.framework */; };
 		D7CC2DF41FE3598D005758F7 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7CC2DF01FE3597E005758F7 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -77,12 +77,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D7069A241FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyOfficeUseCarView.swift; sourceTree = "<group>"; };
-		D7069A281FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RyOfficeUseCarView.xib; sourceTree = "<group>"; };
 		D7069A2F1FFE009800D03CC5 /* QSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSButton.swift; sourceTree = "<group>"; };
+		D746F3DF2021697C00AA4DB9 /* QSLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSLog.swift; sourceTree = "<group>"; };
 		D79191D51FE76538001CA327 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		D79191DA1FE76635001CA327 /* InterimSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterimSpace.swift; sourceTree = "<group>"; };
 		D79191E21FE7B09C001CA327 /* SideslipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideslipCell.swift; sourceTree = "<group>"; };
+		D792B0EB20622FC50001FA2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7B96E90200EE12B009DF63A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		D7CC2DE41FE3597E005758F7 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../GPUImage.xcodeproj; sourceTree = "<group>"; };
 		D7E651D71FE26A9C0019DE47 /* GPUImage_swift_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImage_swift_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D792B0E720622F710001FA2E /* SContentView */ = {
+			isa = PBXGroup;
+			children = (
+				D792B0EB20622FC50001FA2E /* ContentView.swift */,
+			);
+			path = SContentView;
+			sourceTree = "<group>";
+		};
 		D7CC2DE51FE3597E005758F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,12 +149,12 @@
 				D7E651DA1FE26A9C0019DE47 /* AppDelegate.swift */,
 				D7E651DC1FE26A9C0019DE47 /* ViewController.swift */,
 				D7B96E90200EE12B009DF63A /* HomeController.swift */,
+				D792B0E720622F710001FA2E /* SContentView */,
 				D79191D51FE76538001CA327 /* Layout.swift */,
 				D79191DA1FE76635001CA327 /* InterimSpace.swift */,
 				D79191E21FE7B09C001CA327 /* SideslipCell.swift */,
 				D7069A2F1FFE009800D03CC5 /* QSButton.swift */,
-				D7069A241FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift */,
-				D7069A281FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib */,
+				D746F3DF2021697C00AA4DB9 /* QSLog.swift */,
 				D7E652001FE271750019DE47 /* meinv.jpg */,
 				D7E651DE1FE26A9C0019DE47 /* Main.storyboard */,
 				D7E651E11FE26A9C0019DE47 /* Assets.xcassets */,
@@ -258,7 +266,6 @@
 				D7E651E21FE26A9C0019DE47 /* Assets.xcassets in Resources */,
 				D7E651E01FE26A9C0019DE47 /* Main.storyboard in Resources */,
 				D7E652011FE271750019DE47 /* meinv.jpg in Resources */,
-				D7069A2A1FFDFC5A00D03CC5 /* RyOfficeUseCarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7069A291FFDFC5A00D03CC5 /* RyOfficeUseCarView.swift in Sources */,
 				D7E651DD1FE26A9C0019DE47 /* ViewController.swift in Sources */,
 				D79191DB1FE76635001CA327 /* InterimSpace.swift in Sources */,
 				D7E651DB1FE26A9C0019DE47 /* AppDelegate.swift in Sources */,
 				D7B96E91200EE12B009DF63A /* HomeController.swift in Sources */,
+				D746F3E32021697C00AA4DB9 /* QSLog.swift in Sources */,
+				D792B0EC20622FC50001FA2E /* ContentView.swift in Sources */,
 				D7069A331FFE009800D03CC5 /* QSButton.swift in Sources */,
 				D79191D91FE76538001CA327 /* Layout.swift in Sources */,
 				D79191E31FE7B09C001CA327 /* SideslipCell.swift in Sources */,

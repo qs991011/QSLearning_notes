@@ -13,7 +13,33 @@
 		D70FDF25200C8EF600445D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70FDF24200C8EF600445D35 /* Assets.xcassets */; };
 		D70FDF28200C8EF600445D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70FDF26200C8EF600445D35 /* LaunchScreen.storyboard */; };
 		D70FDF2B200C8EF600445D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D70FDF2A200C8EF600445D35 /* main.m */; };
+		D73B3F4D2063843D00BFD190 /* QSLable.m in Sources */ = {isa = PBXBuildFile; fileRef = D73B3F4C2063843D00BFD190 /* QSLable.m */; };
+		D7DBB10B2064D4B500E5936E /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DBB10A2064D4B500E5936E /* UIViewController+swizzling.m */; };
+		D7DBB10F2064D8C500E5936E /* NSArray+QSAarray.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DBB10E2064D8C500E5936E /* NSArray+QSAarray.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D73B3F9E2063902700BFD190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73B3F9A2063902700BFD190 /* YYAsyncLayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9753A811BD3C68300C6F4B8;
+			remoteInfo = YYAsyncLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D73B3F522063845500BFD190 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D70FDF18200C8EF600445D35 /* oc_audio_note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oc_audio_note.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +52,13 @@
 		D70FDF27200C8EF600445D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70FDF29200C8EF600445D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D70FDF2A200C8EF600445D35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D73B3F4B2063843D00BFD190 /* QSLable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSLable.h; sourceTree = "<group>"; };
+		D73B3F4C2063843D00BFD190 /* QSLable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSLable.m; sourceTree = "<group>"; };
+		D73B3F9A2063902700BFD190 /* YYAsyncLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYAsyncLayer.xcodeproj; path = "YYAsyncLayer-master/Framework/YYAsyncLayer.xcodeproj"; sourceTree = "<group>"; };
+		D7DBB1092064D4B500E5936E /* UIViewController+swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzling.h"; sourceTree = "<group>"; };
+		D7DBB10A2064D4B500E5936E /* UIViewController+swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzling.m"; sourceTree = "<group>"; };
+		D7DBB10D2064D8C500E5936E /* NSArray+QSAarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+QSAarray.h"; sourceTree = "<group>"; };
+		D7DBB10E2064D8C500E5936E /* NSArray+QSAarray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+QSAarray.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +75,10 @@
 		D70FDF0F200C8EF600445D35 = {
 			isa = PBXGroup;
 			children = (
+				D73B3F9A2063902700BFD190 /* YYAsyncLayer.xcodeproj */,
 				D70FDF1A200C8EF600445D35 /* oc_audio_note */,
 				D70FDF19200C8EF600445D35 /* Products */,
+				D73B3F8020638E1200BFD190 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +97,12 @@
 				D70FDF1C200C8EF600445D35 /* AppDelegate.m */,
 				D70FDF1E200C8EF600445D35 /* ViewController.h */,
 				D70FDF1F200C8EF600445D35 /* ViewController.m */,
+				D7DBB1092064D4B500E5936E /* UIViewController+swizzling.h */,
+				D7DBB10A2064D4B500E5936E /* UIViewController+swizzling.m */,
+				D7DBB10D2064D8C500E5936E /* NSArray+QSAarray.h */,
+				D7DBB10E2064D8C500E5936E /* NSArray+QSAarray.m */,
+				D73B3F4B2063843D00BFD190 /* QSLable.h */,
+				D73B3F4C2063843D00BFD190 /* QSLable.m */,
 				D70FDF21200C8EF600445D35 /* Main.storyboard */,
 				D70FDF24200C8EF600445D35 /* Assets.xcassets */,
 				D70FDF26200C8EF600445D35 /* LaunchScreen.storyboard */,
@@ -69,6 +110,21 @@
 				D70FDF2A200C8EF600445D35 /* main.m */,
 			);
 			path = oc_audio_note;
+			sourceTree = "<group>";
+		};
+		D73B3F8020638E1200BFD190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D73B3F9B2063902700BFD190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73B3F9F2063902700BFD190 /* YYAsyncLayer.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,6 +135,7 @@
 			buildConfigurationList = D70FDF2E200C8EF600445D35 /* Build configuration list for PBXNativeTarget "oc_audio_note" */;
 			buildPhases = (
 				D70FDF14200C8EF600445D35 /* Sources */,
+				D73B3F522063845500BFD190 /* Embed Frameworks */,
 				D70FDF15200C8EF600445D35 /* Frameworks */,
 				D70FDF16200C8EF600445D35 /* Resources */,
 			);
@@ -117,12 +174,28 @@
 			mainGroup = D70FDF0F200C8EF600445D35;
 			productRefGroup = D70FDF19200C8EF600445D35 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D73B3F9B2063902700BFD190 /* Products */;
+					ProjectRef = D73B3F9A2063902700BFD190 /* YYAsyncLayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D70FDF17200C8EF600445D35 /* oc_audio_note */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D73B3F9F2063902700BFD190 /* YYAsyncLayer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = YYAsyncLayer.framework;
+			remoteRef = D73B3F9E2063902700BFD190 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D70FDF16200C8EF600445D35 /* Resources */ = {
@@ -142,8 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73B3F4D2063843D00BFD190 /* QSLable.m in Sources */,
 				D70FDF20200C8EF600445D35 /* ViewController.m in Sources */,
+				D7DBB10B2064D4B500E5936E /* UIViewController+swizzling.m in Sources */,
 				D70FDF2B200C8EF600445D35 /* main.m in Sources */,
+				D7DBB10F2064D8C500E5936E /* NSArray+QSAarray.m in Sources */,
 				D70FDF1D200C8EF600445D35 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +360,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gci.tr.oc-audio-note";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -298,6 +375,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gci.tr.oc-audio-note";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

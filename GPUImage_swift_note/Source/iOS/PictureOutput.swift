@@ -13,7 +13,7 @@ public class PictureOutput: ImageConsumer {
     public var onlyCaptureNextFrame:Bool = true
     public var keepImageAroundForSynchronousCapture:Bool = false
     var storedFramebuffer:Framebuffer?
-    
+
     public let sources = SourceContainer()
     public let maximumInputs:UInt = 1
     var url:URL!
