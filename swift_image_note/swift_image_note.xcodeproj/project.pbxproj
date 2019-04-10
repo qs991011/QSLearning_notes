@@ -12,7 +12,7 @@
 		D70FDF43200C8F1F00445D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70FDF41200C8F1F00445D35 /* Main.storyboard */; };
 		D70FDF45200C8F1F00445D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70FDF44200C8F1F00445D35 /* Assets.xcassets */; };
 		D70FDF48200C8F1F00445D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70FDF46200C8F1F00445D35 /* LaunchScreen.storyboard */; };
-		D725D62420BB9A28004382DB /* CALayer+QS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725D62320BB9A28004382DB /* CALayer+QS.swift */; };
+		D710D0BD225A381500B0AC13 /* source.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710D0BC225A381500B0AC13 /* source.swift */; };
 		D725D62B20BB9B03004382DB /* YYView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725D62920BB9AFD004382DB /* YYView.swift */; };
 		D725D62C20BB9B03004382DB /* YYDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725D62A20BB9B03004382DB /* YYDate.swift */; };
 		D7D5FF4D20BF902200BBC1A0 /* BorderLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D5FF4C20BF902200BBC1A0 /* BorderLable.swift */; };
@@ -40,7 +40,7 @@
 		D70FDF44200C8F1F00445D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70FDF47200C8F1F00445D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70FDF49200C8F1F00445D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D725D62320BB9A28004382DB /* CALayer+QS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+QS.swift"; sourceTree = "<group>"; };
+		D710D0BC225A381500B0AC13 /* source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = source.swift; sourceTree = "<group>"; };
 		D725D62920BB9AFD004382DB /* YYView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYView.swift; sourceTree = "<group>"; };
 		D725D62A20BB9B03004382DB /* YYDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYDate.swift; sourceTree = "<group>"; };
 		D7D5FF4C20BF902200BBC1A0 /* BorderLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderLable.swift; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 				D70FDF3D200C8F1F00445D35 /* AppDelegate.swift */,
 				D70FDF3F200C8F1F00445D35 /* ViewController.swift */,
 				D7DE342D207C4B3200440105 /* QSString.swift */,
-				D725D62320BB9A28004382DB /* CALayer+QS.swift */,
 				D725D62A20BB9B03004382DB /* YYDate.swift */,
+				D710D0BC225A381500B0AC13 /* source.swift */,
 				D725D62920BB9AFD004382DB /* YYView.swift */,
 				D7D5FF4C20BF902200BBC1A0 /* BorderLable.swift */,
 				D70FDF41200C8F1F00445D35 /* Main.storyboard */,
@@ -169,9 +169,9 @@
 				D725D62B20BB9B03004382DB /* YYView.swift in Sources */,
 				D7DE342E207C4B3200440105 /* QSString.swift in Sources */,
 				D725D62C20BB9B03004382DB /* YYDate.swift in Sources */,
+				D710D0BD225A381500B0AC13 /* source.swift in Sources */,
 				D7D5FF4D20BF902200BBC1A0 /* BorderLable.swift in Sources */,
 				D70FDF3E200C8F1F00445D35 /* AppDelegate.swift in Sources */,
-				D725D62420BB9A28004382DB /* CALayer+QS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

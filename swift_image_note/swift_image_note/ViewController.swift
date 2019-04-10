@@ -25,7 +25,8 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         table.rowHeight = 60
         self.view.addSubview(table)
         
-    
+        
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }

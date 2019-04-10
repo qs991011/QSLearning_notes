@@ -7,7 +7,7 @@
 //
 
 #import "QSLable.h"
-#import <YYAsyncLayer/YYAsyncLayer.h>
+
 @interface QSLable () 
 
 

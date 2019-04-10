@@ -16,17 +16,8 @@
 		D73B3F4D2063843D00BFD190 /* QSLable.m in Sources */ = {isa = PBXBuildFile; fileRef = D73B3F4C2063843D00BFD190 /* QSLable.m */; };
 		D7DBB10B2064D4B500E5936E /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DBB10A2064D4B500E5936E /* UIViewController+swizzling.m */; };
 		D7DBB10F2064D8C500E5936E /* NSArray+QSAarray.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DBB10E2064D8C500E5936E /* NSArray+QSAarray.m */; };
+		D7EF4365225B38F3002F4FEB /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EF4364225B38F3002F4FEB /* UncaughtExceptionHandler.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D73B3F9E2063902700BFD190 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D73B3F9A2063902700BFD190 /* YYAsyncLayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D9753A811BD3C68300C6F4B8;
-			remoteInfo = YYAsyncLayer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D73B3F522063845500BFD190 /* Embed Frameworks */ = {
@@ -54,11 +45,12 @@
 		D70FDF2A200C8EF600445D35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D73B3F4B2063843D00BFD190 /* QSLable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSLable.h; sourceTree = "<group>"; };
 		D73B3F4C2063843D00BFD190 /* QSLable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSLable.m; sourceTree = "<group>"; };
-		D73B3F9A2063902700BFD190 /* YYAsyncLayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYAsyncLayer.xcodeproj; path = "YYAsyncLayer-master/Framework/YYAsyncLayer.xcodeproj"; sourceTree = "<group>"; };
 		D7DBB1092064D4B500E5936E /* UIViewController+swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzling.h"; sourceTree = "<group>"; };
 		D7DBB10A2064D4B500E5936E /* UIViewController+swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzling.m"; sourceTree = "<group>"; };
 		D7DBB10D2064D8C500E5936E /* NSArray+QSAarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+QSAarray.h"; sourceTree = "<group>"; };
 		D7DBB10E2064D8C500E5936E /* NSArray+QSAarray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+QSAarray.m"; sourceTree = "<group>"; };
+		D7EF4363225B38F3002F4FEB /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		D7EF4364225B38F3002F4FEB /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +67,6 @@
 		D70FDF0F200C8EF600445D35 = {
 			isa = PBXGroup;
 			children = (
-				D73B3F9A2063902700BFD190 /* YYAsyncLayer.xcodeproj */,
 				D70FDF1A200C8EF600445D35 /* oc_audio_note */,
 				D70FDF19200C8EF600445D35 /* Products */,
 				D73B3F8020638E1200BFD190 /* Frameworks */,
@@ -95,6 +86,8 @@
 			children = (
 				D70FDF1B200C8EF600445D35 /* AppDelegate.h */,
 				D70FDF1C200C8EF600445D35 /* AppDelegate.m */,
+				D7EF4363225B38F3002F4FEB /* UncaughtExceptionHandler.h */,
+				D7EF4364225B38F3002F4FEB /* UncaughtExceptionHandler.m */,
 				D70FDF1E200C8EF600445D35 /* ViewController.h */,
 				D70FDF1F200C8EF600445D35 /* ViewController.m */,
 				D7DBB1092064D4B500E5936E /* UIViewController+swizzling.h */,
@@ -117,14 +110,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D73B3F9B2063902700BFD190 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D73B3F9F2063902700BFD190 /* YYAsyncLayer.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,28 +159,12 @@
 			mainGroup = D70FDF0F200C8EF600445D35;
 			productRefGroup = D70FDF19200C8EF600445D35 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D73B3F9B2063902700BFD190 /* Products */;
-					ProjectRef = D73B3F9A2063902700BFD190 /* YYAsyncLayer.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D70FDF17200C8EF600445D35 /* oc_audio_note */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		D73B3F9F2063902700BFD190 /* YYAsyncLayer.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = YYAsyncLayer.framework;
-			remoteRef = D73B3F9E2063902700BFD190 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D70FDF16200C8EF600445D35 /* Resources */ = {
@@ -220,6 +189,7 @@
 				D7DBB10B2064D4B500E5936E /* UIViewController+swizzling.m in Sources */,
 				D70FDF2B200C8EF600445D35 /* main.m in Sources */,
 				D7DBB10F2064D8C500E5936E /* NSArray+QSAarray.m in Sources */,
+				D7EF4365225B38F3002F4FEB /* UncaughtExceptionHandler.m in Sources */,
 				D70FDF1D200C8EF600445D35 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

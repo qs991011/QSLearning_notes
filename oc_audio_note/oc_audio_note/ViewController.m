@@ -44,13 +44,27 @@ void dynamicMethodTMP(id self, SEL _cmd) {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIButton *btn = [[UIButton alloc] initWithFrame: CGRectMake(10, 20, 60, 80)];
+    btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(clickTargetBtn) forControlEvents:UIControlEventTouchUpInside];
     // Do any additional setup after loading the view, typically from a nib.
-    [self isSeleep];
+    //[self isSeleep];
+
+    
+//    NSArray *arr=[NSArray arrayWithObjects:@"4",@"5", nil];
+//    NSLog(@"%@",[arr objectAtIndex:3]);
    
 }
 
+
+- (void)clickTargetBtn {
+    NSArray *array = [NSArray arrayWithObject:@"there is only one objective in this arary,call index one, app will crash and throw an exception!"];
+    NSLog(@"%@", [array objectAtIndex:1]);
+}
+
 - (void)takename {
-    NSLog(@"睡觉");
+    
 }
 //一号接盘侠
 + (BOOL)resolveInstanceMethod:(SEL)sel{

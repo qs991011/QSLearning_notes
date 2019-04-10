@@ -7,7 +7,43 @@
 //
 
 import Foundation
+import UIKit
+struct Mankywrapper<Base> {
+    let base : Base
+    init(_ base : Base) {
+        self.base = base
+    }
+}
+
+protocol MankyCompatible : AnyObject {}
+
+protocol MankyCompatibleValue {}
+
+extension MankyCompatible {
+    public var kf : Mankywrapper<Self>{
+        get {return Mankywrapper(self)}
+        set {}
+    }
+}
+
+
+extension MankyCompatibleValue {
+    var kf : Mankywrapper<Self> {
+        get {return Mankywrapper(self)}
+        set {}
+    }
+    
+}
+
+
+extension Mankywrapper where Base : UIImageView {
+   
+}
+extension Mankywrapper where Base : UIView {
+    
+}
 extension Date {
+
     var year : Int {
         get {
             return Calendar.current.component(.year, from: self)
@@ -166,24 +202,23 @@ extension Date {
     }
     
     func stringWithISOFormat() -> String {
-         let formatter = DateFormatter()
-         formatter.locale = Locale(identifier: "en_US_POSIX")
-         formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
-         return formatter.string(from: self)
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        return formatter.string(from: self)
     }
     
-   static  func dateWithString(dateString:String,format:String) ->Date? {
+    static  func dateWithString(dateString:String,format:String) ->Date? {
         let formatter = DateFormatter()
         formatter.dateFormat = format
         return formatter.date(from: dateString)
     }
     
-   static  func dateWithString(dateString: String,format:String,timeZone:TimeZone,locale:Locale) -> Date? {
+    static  func dateWithString(dateString: String,format:String,timeZone:TimeZone,locale:Locale) -> Date? {
         let formatter = DateFormatter()
         formatter.dateFormat = format
         formatter.timeZone = timeZone
         formatter.locale = locale
         return formatter.date(from: dateString)
     }
-    
 }
